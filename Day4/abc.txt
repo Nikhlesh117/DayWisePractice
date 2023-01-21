@@ -1,0 +1,257 @@
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2/linux-content (master)
+$ cd ..
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo Nikhlesh
+Nikhlesh
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo $USER
+
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo $USERNAME
+ASUS
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo $SHELL
+/usr/bin/bash
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo $HOME
+/c/Users/ASUS
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sh linux-content/
+27M     linux-content/
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sk linux-content/
+27389   linux-content/
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sm linux-content/
+27      linux-content/
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sm linux-content/ sort -nr
+du: unknown option -- n
+du: unknown option -- r
+Try 'du --help' for more information.
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sm linux-content| sort -nr
+27      linux-content
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sm linux-content| sort -n
+27      linux-content
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sm *| sort -n
+0       temp
+0       test
+1       abc.txt
+27      linux-content
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ du -sm *| sort -nr
+27      linux-content
+1       abc.txt
+0       test
+0       temp
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ls ~
+'3D Objects'/
+ AppData/
+'Application Data'@
+'COVERT DATASET INTO DATA BASE USING PYTHON.ipynb'
+ Cheathappens/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'PYTHON PROJECT'/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ TerminalCommands/
+ Tracing/
+ Untitled.ipynb
+ Videos/
+ anaconda3/
+ ansel/
+ df.csv/
+ mintty.2023-01-10_10-04-29.png
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ web_scraping_.ipynb
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ find ~/Download -name *.png
+find: ‘/c/Users/ASUS/Download’: No such file or directory
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ find . -type f empty
+find: paths must precede expression: `empty'
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ find . -type f -empty
+./temp/abc.pdf
+./temp/abc.txt
+./test
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ nano
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ nano HelloWorld
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ nano HelloWorld
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ javac HelloWorld.java
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ java HelloWorld.java
+Hello World!!!
+Hello World!!!
+Hello World!!!
+
+Hello World!!!
+
+Hello World!!!
+cs
+Hello World!!!
+cd ..
+Hello World!!!
+Hello World!!!
+Hello World!!!
+Hello World!!!
+Hello World!!!
+
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ java HelloWorld
+Hello World!!!
+
+Hello World!!!
+
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1734    1486    1734      13092  pty0      197609 09:44:55 /usr/bin/ps
+     1485       1    1485       2200  ?         197609 08:59:01 /usr/bin/mintty
+     1486    1485    1486       3444  pty0      197609 08:59:01 /usr/bin/bash
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps --help
+Usage: ps [-aefls] [-u UID] [-p PID]
+
+Report process status
+
+ -a, --all       show processes of all users
+ -e, --everyone  show processes of all users
+ -f, --full      show process uids, ppids
+ -h, --help      output usage information and exit
+ -l, --long      show process uids, ppids, pgids, winpids
+ -p, --process   show information for specified PID
+ -s, --summary   show process summary
+ -u, --user      list processes owned by UID
+ -V, --version   output version information and exit
+ -W, --windows   show windows as well as cygwin processes
+
+With no options, ps outputs the long format by default
+
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps -elf
+     UID     PID    PPID  TTY        STIME COMMAND
+    ASUS    1742    1486 pty0     09:50:11 /usr/bin/ps
+    ASUS    1485       1 ?        08:59:01 /usr/bin/mintty
+    ASUS    1486    1485 pty0     08:59:01 /usr/bin/bash
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps -elf | grep java
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps -elf | grep java | grep -v grep
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1757    1486    1757      18412  pty0      197609 09:52:18 /usr/bin/ps
+     1485       1    1485       2200  ?         197609 08:59:01 /usr/bin/mintty
+     1486    1485    1486       3444  pty0      197609 08:59:01 /usr/bin/bash
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps -elf | grep java | grep -v grep | awk {'print $1'}
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps -elf | grep java | grep -v grep | awk {'print $0'}
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps | grep java | grep -v grep | awk {'rint $0'}
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps | grep java | grep -v grep | awk {'rint $1'}
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps | grep java | grep -v grep | awk {'print $1'}
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ ps | grep bash | awk {'print $1'}
+1797
+1486
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo hello nick | awk {'print $0'}
+hello nick
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo hello nick | awk {'print $1'}
+hello
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo hello nick | awk {'print $2'}
+nick
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo hello nick | awk {'print $3'}
+
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ echo hello nick | awk {'print $0'}
+hello nick
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2
+$ cd linux-content
+
+ASUS@LAPTOP-3B8MNDL8 MINGW64 /d/Work/TerminalCommands/daywise/Day2/linux-content (master)
+$
